@@ -15,5 +15,5 @@ then your output will be date 5 as this date has 4 number of patients.
 
 3. On election day, a voting machine writes data in the form (voter_id, candidate_id). Write a program that takes data as array of (voter_id, candidate_id) and returns the top 3 candidates at any given time. If you find a voter voting more than once, report this as fraud and dont count this voter's any vote and print these voters id as fraud candidates.   
 Example: For data: [(1,2), (2,3),(3,2), (1,3), (4,3), (5,3),(6,2), (7,3), (8,2), (9,3),(10,1), (11,4), (12,4)] , output should be,   
-Top Three candidates: 3, 2, 4    
-Fraud candiates: 1
+Top Three candidate ids: 3, 2, 4    
+Fraud voter ids: 1
